@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result_bg"
+    >
+
+
+    <TextView
+        android:id="@+id/quiz_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/original_surfer"
+        android:paddingTop="60dp"
+        android:text="Quiz Result"
+        android:textColor="#DBDCE0"
+        android:textSize="33sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/champion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:src="@drawable/ic_champion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quiz_result" />
+
+    <TextView
+        android:id="@+id/thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/subject_font"
+        android:paddingTop="30dp"
+        android:text="@string/congratulations"
+        android:textColor="#E7E7EA"
+        android:textSize="33sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/champion" />
+
+    <TextView
+        android:id="@+id/gap1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/gap1"
+        android:textColor="#A7AEB9"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/thanks"
+        app:layout_constraintRight_toRightOf="@id/thanks"
+        app:layout_constraintTop_toBottomOf="@id/thanks" />
+
+    <TextView
+        android:id="@+id/gap2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/gap2"
+        android:textColor="#A7AEB9"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="@id/gap1"
+        app:layout_constraintRight_toRightOf="@id/gap1"
+        app:layout_constraintTop_toBottomOf="@id/gap1" />
+
+    <TextView
+        android:id="@+id/your_score_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/barlow_semi_medium"
+        android:text="@string/score"
+        android:textAllCaps="true"
+        android:textColor="#818391"
+        android:textSize="22sp"
+        app:layout_constraintLeft_toLeftOf="@id/gap2"
+        app:layout_constraintRight_toRightOf="@id/gap2"
+        app:layout_constraintTop_toBottomOf="@id/gap2" />
+
+    <TextView
+        android:id="@+id/right_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/space_mono_bold"
+        android:text="20"
+        android:textColor="#10C99B"
+        android:textSize="32sp"
+        app:layout_constraintLeft_toLeftOf="@id/your_score_id"
+        app:layout_constraintTop_toBottomOf="@+id/your_score_id" />
+
+    <TextView
+        android:id="@+id/all_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/space_mono_bold"
+        android:text="/20"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@id/right_answer"
+        app:layout_constraintLeft_toRightOf="@id/right_answer"
+        app:layout_constraintTop_toTopOf="@id/right_answer" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
