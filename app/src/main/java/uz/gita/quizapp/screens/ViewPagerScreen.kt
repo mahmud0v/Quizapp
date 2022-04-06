@@ -1,4 +1,4 @@
-package uz.gita.quizapp.adapter
+package uz.gita.quizapp.screens
 
 import android.os.Bundle
 import android.view.LayoutInflater
