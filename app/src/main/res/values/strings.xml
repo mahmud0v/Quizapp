@@ -19,4 +19,11 @@
     <string name="gap1">congratulations on completing the quiz,</string>
     <string name="gap2">the number of quiz is over</string>
     <string name="score">Your score</string>
+    <string name="FirstIntroText">Qulay foydalanish</string>
+    <string name="FirstIntroDesc">Bilimingizni qulay tarzda tekshiring</string>
+    <string name="SecondIntroText">Fanlar majmuasidan testlar</string>
+    <string name="SecondIntroDesc">Fanlardan bilimingizni tekshirib ko\'ring</string>
+    <string name="ThirdIntroText">Natijani tekshirish</string>
+    <string name="ThirdIntroDesc">O\'z bilimingizni raqamlarda tekshiring</string>
+    <string name="Math">O\'z bilimingizni raqamlarda tekshiring</string>
 </resources>

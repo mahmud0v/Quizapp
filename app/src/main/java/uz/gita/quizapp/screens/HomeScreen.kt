@@ -5,7 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.room.Room
+import com.google.android.material.snackbar.Snackbar
 import uz.gita.quizapp.databinding.HomeScreenBinding
+import uz.gita.quizapp.model.AppDatabase
 
 class HomeScreen : Fragment() {
     private var _binding: HomeScreenBinding? = null
@@ -21,8 +24,13 @@ class HomeScreen : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        AppDatabase.initDB(requireContext())
+        val english = AppDatabase.getEnglishDao().getEnglishRow(1)
+
 
     }
+
+
 
 
     override fun onDestroy() {
