@@ -24,8 +24,7 @@ class HomeScreen : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        AppDatabase.initDB(requireContext())
-        val english = AppDatabase.getEnglishDao().getEnglishRow(1)
+
 
 
     }
