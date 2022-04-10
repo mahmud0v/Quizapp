@@ -11,7 +11,7 @@
     android:paddingTop="20dp">
 
     <TextView
-        android:id="@+id/english_quiz"
+        android:id="@+id/science_quiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -36,7 +36,7 @@
         android:textColor="#CACBCE"
         android:textSize="30sp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/english_quiz" />
+        app:layout_constraintTop_toBottomOf="@id/science_quiz" />
 
     <TextView
         android:id="@+id/question_num"
@@ -64,10 +64,9 @@
 
     <View
         android:id="@+id/divider_id"
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="25dp"
         android:background="@android:color/darker_gray"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -87,11 +86,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/divider_id" />
 
+
     <LinearLayout
         android:id="@+id/item1"
         style="@style/question_bg"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/question_text">
+        app:layout_constraintTop_toBottomOf="@id/question_text"
+       >
 
         <ImageView
             android:layout_width="50dp"
@@ -100,6 +101,7 @@
             android:layout_marginLeft="10dp"
             android:layout_gravity="end"
             android:paddingTop="12dp"
+            android:id="@+id/variant_round_btn"
             android:src="@drawable/empty_check"
             />
 
@@ -197,16 +199,23 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/stop_id"
-        android:layout_width="100dp"
-        android:layout_height="47dp"
+        android:id="@+id/quit_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/question_next"
+        android:layout_marginBottom="28dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/next_id">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/power_off"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="4dp"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -214,13 +223,13 @@
             android:text="@string/stop"
             android:textColor="@color/white"
             android:paddingBottom="4dp"
-            android:textSize="27sp" />
+            android:textSize="18sp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/next_id"
-        android:layout_width="100dp"
+        android:layout_width="150dp"
         android:layout_height="47dp"
         android:layout_gravity="bottom"
         android:layout_marginBottom="20dp"
@@ -228,7 +237,7 @@
         android:gravity="center"
         android:onClick="next1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/stop_id"
+        app:layout_constraintLeft_toRightOf="@id/quit_id"
         app:layout_constraintRight_toRightOf="parent">
 
         <TextView
@@ -239,7 +248,7 @@
             android:text="@string/next2"
             android:textColor="@color/white"
             android:paddingBottom="4dp"
-            android:textSize="27sp" />
+            android:textSize="23sp" />
     </LinearLayout>
 
 

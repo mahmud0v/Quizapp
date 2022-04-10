@@ -10,4 +10,7 @@ interface EnglishDao {
     @Query("select * from English where id = :id")
     fun getEnglishRow(id: Int): English
 
+
+
+
 }

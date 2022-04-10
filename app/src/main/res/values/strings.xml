@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Quiz app</string>
-    <string name="question1">This is ... book. Replace the point with the correct word?</string>
+    <string name="question1">... do you go to the gym?</string>
     <string name="next">next</string>
     <string name="quiz_app">Quiz app</string>
     <string name="quiz_categories">Categories</string>
@@ -11,8 +11,8 @@
     <string name="english_quiz">English Quiz</string>
     <string name="question">Question</string>
     <string name="_1">1</string>
-    <string name="next2">next</string>
-    <string name="stop">stop</string>
+    <string name="next2">Next</string>
+    <string name="stop">Quit Quiz</string>
     <string name="my">my</string>
     <string name="_10">/10</string>
     <string name="congratulations">Congratulations!</string>
@@ -26,4 +26,6 @@
     <string name="ThirdIntroText">Natijani tekshirish</string>
     <string name="ThirdIntroDesc">O\'z bilimingizni raqamlarda tekshiring</string>
     <string name="Math">O\'z bilimingizni raqamlarda tekshiring</string>
+    <string name="Exit">Exit</string>
+    <string name="Home">Home</string>
 </resources>

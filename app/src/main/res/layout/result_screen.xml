@@ -87,9 +87,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/space_mono_bold"
-        android:text="20"
+        android:text="0"
+        android:layout_marginTop="15dp"
         android:textColor="#10C99B"
         android:textSize="32sp"
+        app:layout_constraintRight_toLeftOf="@id/all_answer"
         app:layout_constraintLeft_toLeftOf="@id/your_score_id"
         app:layout_constraintTop_toBottomOf="@+id/your_score_id" />
 
@@ -98,12 +100,65 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/space_mono_bold"
-        android:text="/20"
+        android:text="/10"
+        android:layout_marginTop="15dp"
         android:textColor="#FFFFFF"
         android:textSize="32sp"
-        app:layout_constraintBottom_toBottomOf="@id/right_answer"
+        app:layout_constraintRight_toRightOf="@id/your_score_id"
         app:layout_constraintLeft_toRightOf="@id/right_answer"
-        app:layout_constraintTop_toTopOf="@id/right_answer" />
+        app:layout_constraintTop_toBottomOf="@id/your_score_id"
+        />
+    <LinearLayout
+        android:id="@+id/home_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/exit_id">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_home"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Home"
+            android:textColor="@color/white"
+            android:paddingBottom="4dp"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/exit_id"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:background="@drawable/exit_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/home_id"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Exit"
+            android:textColor="@color/white"
+            android:paddingBottom="4dp"
+            android:textSize="23sp" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,12 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/btn_1.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/btn_1_click.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/categ1.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/circle2.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/circle3.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/empty_check.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/exit_btn.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/ic_champion.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/ic_check.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/ic_home.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/ic_logout.xml" value="0.21354166666666666" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/next_btn.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/power_off.xml" value="0.21025641025641026" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/radio_button.xml" value="0.21025641025641026" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/result_bg.xml" value="0.21354166666666666" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/drawable/triangle.xml" value="0.21354166666666666" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/activity_head.xml" value="0.19739583333333333" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/activity_main.xml" value="0.19739583333333333" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/activity_question.xml" value="0.11730072463768115" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/activity_result.xml" value="0.11730072463768115" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/home_screen.xml" value="0.19739583333333333" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/question_screen.xml" value="0.21" />
+        <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/result_screen.xml" value="0.2" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/splash_screen.xml" value="0.1" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/vie.xml" value="0.19739583333333333" />
         <entry key="..\:/Android Projects/AndroidStudioProjects/Quizapp/app/src/main/res/layout/view_pager_home.xml" value="0.19739583333333333" />
